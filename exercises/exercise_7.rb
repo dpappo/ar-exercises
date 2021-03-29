@@ -10,3 +10,10 @@ puts "Exercise 7"
 puts "----------"
 
 # Your code goes here ...
+puts "I would like for you to tell me a store name please and thank you"
+store_name = gets
+
+new_store = Store.new
+new_store.name = store_name
+
+new_store.save!
